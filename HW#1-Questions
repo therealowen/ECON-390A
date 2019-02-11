@@ -1,0 +1,57 @@
+
+Econ 390A; Homework#01 ; 
+
+Total Point 100; Submission date: 02/18/2019, 5 pm.; submission mode: email your R-script file (no word, pdf or text file pls) to masud@niu.edu
+You may work in group and submit your work separately(maximum 3 persons in a group)
+
+Part A: Basics of R
+Q1.What is RGui and R studio (max 2 sentences)? Why do we use R-Studio(max 3 sentences)? Please open your Rstudio and create a new R script file. check your current working directory 
+and set your new working directory. Clearly mention what commands you will use to do so.
+How many sub-windows you have on your R studio and what are their names.
+Q2. Use the save button to save your new R-script file to your directory (give a file name to it something like YOUR_first_NAME_zid.R);
+write some comments at the top of the script indicating what the script is for (e.g., #“this is my homework01 answer for econ 390A course, my(our) zid is, my group member ....”), 
+
+Q3. Create a numeric vector 'Myvec1' with 30 elements using c() or seq(). 
+
+Q4.Create a character vector 'Myvec2' with five names elements(such as Eagles,Patriots, Broncos,Seahawks,Ravens) 
+
+Q5. Create a numeric vector called 'Earnings'(for five numerical values) whose elements contain the names of five superbowl teams you mentioned in 'Myvec2', 
+where the names of each element correspond to the names of those teams. Create a pie chart using their earnings and names(both 2D and 3D).
+
+Q6. Create a vector (with 15 elements) and store values as vec1. Now transform the vec1 into a matrix(name it as myMat)with 3 rows and 5 columns.To answer this question please use nrow & ncol command.
+Now extract the following elements:
+(i) element located on third row and second column, (ii) all element in second column (iii) all elements in second and fifth coulmn (iv) all elements located in second row
+ 
+
+Q7. Create three vectors v1, v2 and v3 ( must have the same number of elements for v1, v2 and v3). Next, transform these vectors into two matrices using both cbind() and rbind().
+
+Q8. Use logical operations to get R to agree that “five plus eight equals ten” is FALSE. 
+
+Q9.Create a variable called 'Hotdog' whose value corresponds to the price of Hotdog you’ve eaten in the last week. Or something equally same. 
+Now create another varible 'sales_tax' whose value corresponds to 15% of the price of pizza. Now add these two values and store your result as 'myCost'. 
+I assume the utility you enjoyed was 50 utils. So create a third variable 'myUtility' whose value is 50. 
+Use logical operations to check whether your myUtility is equal to your myCost or not.
+
+Part B: Distribution and plotting with R; 
+
+
+Q1.Write the command to import the drive data (csv one) on R studio. Type a command to look at the first and last few observations, structure and summary statistics of your data. 
+
+Q2. Draw as plot of age against rt_time1. Customise your plot, such as give it a title, x-axis and y-axis labels, and you may put nice color of your choices.
+
+Q3. Draw box plots for age, broken down by distractor. Make it nicer by giving a title, various colors, xlab, ylab and distractors names.
+
+Q4. Draw a histogram showing the distribution of the errors_time2 (number of errors made at the second test)
+
+Q5. Import the drive data (xlsx one) on R studio and save it to your directory as a csv file as "MyDrive".
+Q6. Install a package called "quantmod" onto your R-studio and call your installed package. Import US GDP and Unemployment data using source "FRED". 
+Check the first and last 15 elements of your data.Save your GDP and unemployment data as a csv file to your directory. (hints: at the end of lecture one, pdf file)
+
+
+
+
+
+
+
+
+
